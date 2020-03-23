@@ -1,14 +1,14 @@
 #pragma once
-#include "Film.h"
+#include "Movie.h"
 
 class Repo {
 private:
-	Film filme[30];
+	Movie movies[50];
 	int n;
 public:
 	Repo();
 	~Repo();
-	void addFilm(Film f);
-	Film* getAll();
+	void addMovie(Movie m);
+	Movie* getAll();
 	int getSize();
 };
